@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>La jugosa</title>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/estilo.css">
+	<link rel="stylesheet" href="font/style.css">
+	<script src="js/bootstrap.min.js"></script>
+</head>
+<body>
+  <header>
+      <nav class="navbar navbar-inverse navbar-fixed-top barra" role="navigation">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navegacionlj">
+              <span class="sr-only">Desplgar / ocultar menu</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a href="#" class="navbar-brand"><img src="img/logolj.png" alt="" class="logo"> </a>
+            <a href="#" class="navbar-brand titulo"><h1>LA JUGOSA</h1></a>
+
+            
+            <!-- aqui empieza el menu -->
+            <div class="collapse navbar-collapse" id="navegacionlj">
+              <lu class="nav navbar-nav lista">
+        <!-- Boton  Admiistrativo -->
+         
+         <!-- boton de recursos humanos -->
+        <li role="presentation" class="dropdown">
+             <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+               <span class="icon-group" style="font-size:20px;"></span> Recursos humanos <span class="caret"></span>
+             </a>
+             <ul class="dropdown-menu">
+             <!-- Ingresar Informe de empleado (tabla)
+Registrar empleado (botón desplegable)
+Modificar registro de empleado (Botón)
+Consultar empleado
+ -->
+             
+               <li><a href="RegistrarEmpleados.html">Registrar empleado</a></li>
+               <li><a href="Novedades.html">Novedades</a></li>
+               <li><a href="ListarEmpleados.html">Ver lista de empleados</a></li>
+            </ul>
+          </li>
+        <!-- Boton de clientes -->
+       
+            </div>
+          </div>
+        </div>
+      </nav>
+  </header>
+ 
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+
+
+  <!-- aqui va un jumbotron -->
+    
+            <div class="container">
+              
+               <form>
+                <div class="container">
+                                   <br><br>
+                                    <input type="text" class="form-control" name="name"required="" data-form-field="Name" id="index-form1-1-name" placeholder="Ingrese el número de documento del empleado">
+                                  
+                </div>
+                <br>
+                                  <div class="container">
+                                    <button type="button" class="btn btn-success" style="margin-right:auto">Consultar</button>  
+                           </div>
+              </form> <br>
+              <h2>EMPLEADOS</h2>
+  <h4>Estos son todos los empleados de nuestra compañía<h4><br>            
+  <table class="table table-bordered">
+    <thead>
+      <tr>
+        <th>Nombres</th>
+        <th>Identificación</th>
+        <th>Cargo</th>
+        <th>Detalles</th>
+        <th>Acualizar</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Jhon Wilmar Venté</td>
+        <td>1026157932</td>
+        <td>Mesero</td>
+        <td><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><img src="img/detallar.jpg" height="20px"></td>
+        <td><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><img src="img/actualizar.png" height="30px"></td>
+      </tr>
+      <tr>
+        <td>Edwin Arturo Saénz Barón </td>
+        <td>7584422668</td>
+        <td>Mensajero</td>
+        <td><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><img src="img/detallar.jpg" height="20px"></td>
+        <td><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><img src="img/actualizar.png" height="30px"></td>
+      </tr>
+      <tr>
+        <td>Jhon Jairo Campillo Londoño</td>
+        <td>5244698223</td>
+        <td>Administrador punto de venta</td>
+        <td><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><img src="img/detallar.jpg" height="20px"></td>
+        <td><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><img src="img/actualizar.png" height="30px"></td>
+      </tr>
+
+        <tr>
+        <td>Oscar</td>
+        <td>8528585566</td>
+        <td>Jefe de insumos</td>
+        <td><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><img src="img/detallar.jpg" height="20px"></td>
+        <td><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><img src="img/actualizar.png" height="30px"></td>
+      </tr>
+
+    </tbody>
+  </table>
+
+
+
+
+
+
+
+            </div>
+         <br><br><br><br><br><br><br>
+      
+
+<footer>
+        <<div>
+          <p class="footer"><span class="letra">La Jugosa &copy; Todos los derechos reservados</p></span>
+        </div>
+     </footer>
+    
+     
+    
+  
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>

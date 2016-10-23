@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>La jugosa</title>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/estilo.css">
+	<script src="js/bootstrap.min.js"></script>
+</head>
+<body>
+  <header>
+      <nav class="navbar navbar-inverse navbar-fixed-top barra" role="navigation">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navegacionlj">
+              <span class="sr-only">Desplgar / ocultar menu</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a href="#" class="navbar-brand"><img src="img/logolj.png" alt="" class="logo"> </a>
+            <a href="#" class="navbar-brand titulo"><h1>LA JUGOSA</h1></a>
+
+            
+            <!-- aqui empieza el menu -->
+            <div class="collapse navbar-collapse" id="navegacionlj">
+              <lu class="nav navbar-nav lista navbar-right">
+        <!-- Boton  Admiistrativo -->
+         <li role="presentation" class="dropdown">
+             <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+              <span class="glyphicon glyphicon-briefcase"></span>  Administrativo <span class="caret"></span>
+             </a>
+             <ul class="dropdown-menu">
+               <li><a href="administrativo_autorizaciones.html">Autorizaciones</a></li>
+               <li><a href="administrativo_ventas.html">Informe de ventas</a></li>
+               <li><a href="administrativo_insumos.html">Informe de insumos</a></li>
+               <li><a href="administrativo_empleados.html">Informe de empleados</a></li>
+            </ul>
+          </li>
+          
+        
+      </lu>
+            </div>
+          </div>
+        </div>
+      </nav>
+  </header>
+   -->
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+
+  <!-- aqui va un jumbotron -->
+     
+     <section class="main container-fluid">
+        <div class="container-fluid">
+        <select name="ver_info_ventas" id="info_ventas">
+                <option value="">por sede</option>
+                <option value="">al dia</option>
+                <option value="">en general</option>
+            </select>
+        
+
+  <h2 style="text-align: center;">Informe de ventas</h2>
+  <p style="text-align: center;">Consulte aqui el informe de ventas por sede.</p>
+  <table class="table table-bordered table-hover">
+    <thead>
+      <tr>
+        <th>sede</th>
+        <th>tipo de informe</th>
+        <th>detalle</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Envigado</td>
+        <td>por sede</td>
+        <td><a data-toggle="modal" href="#myModal"><span class="glyphicon glyphicon-inbox"></span></a>
+        <!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Modal Header</h4>
+        </div>
+        <div class="modal-body">
+          <p>Some text in the modal.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+      </tr>
+      <tr>
+        <td>Itagui</td>
+        <td>por sede</td>
+        <td><a href="#"><span class="glyphicon glyphicon-inbox"></span></a></td>
+      </tr>
+      <tr>
+        <td>Poblado</td>
+        <td>por sede</td>
+        <td><a href="#"><span class="glyphicon glyphicon-inbox"></span></a></td>
+      </tr>
+      <tr>
+        <td>Carrera 80</td>
+        <td>por sede</td>
+        <td><a href="#"><span class="glyphicon glyphicon-inbox"></span></a></td>
+      </tr>
+      <tr>
+        <td>Los Sauces</td>
+        <td>por sede</td>
+        <td><a href="#"><span class="glyphicon glyphicon-inbox"></span></a></td>
+      </tr>
+      <tr>
+        <td>Laureles</td>
+        <td>por sede</td>
+        <td><a href="#"><span class="glyphicon glyphicon-inbox"></span></a></td>
+      </tr>
+      <tr>
+        <td>Avenida Oriental</td>
+        <td>por sede</td>
+        <td><a href="#"><span class="glyphicon glyphicon-inbox"></span></a></td>
+      </tr>
+      <tr>
+        <td>Bello</td>
+        <td>por sede</td>
+        <td><a href="#"><span class="glyphicon glyphicon-inbox"></span></a></td>
+      </tr>
+      <tr>
+        <td>Belen</td>
+        <td>por sede</td>
+        <td><span class="glyphicon glyphicon-inbox"></span></td>
+      </tr>
+    </tbody>
+  </table>
+  <button type="submit" class="btn btn-primary">VOLVER</button>
+  </div>
+
+     </section>
+	 
+
+<br><br><br><br>
+     <footer>
+        <div>
+          <p class="footer">La Jugosa &copy; Todos los derechos reservados</p>
+        </div>
+     </footer>
+    
+  
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>

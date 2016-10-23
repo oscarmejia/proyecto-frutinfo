@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>La jugosa</title>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/estilo.css">
+	<script src="js/bootstrap.min.js"></script>
+</head>
+<body>
+  <header>
+      <nav class="navbar navbar-inverse navbar-fixed-top barra" role="navigation">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navegacionlj">
+              <span class="sr-only">Desplgar / ocultar menu</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a href="#" class="navbar-brand"><img src="img/logolj.png" alt="" class="logo"> </a>
+            <a href="#" class="navbar-brand titulo"><h1>La jugosa</h1></a>
+
+            
+            <!-- aqui empieza el menu -->
+            <div class="collapse navbar-collapse" id="navegacionlj">
+              <lu class="nav navbar-nav lista">
+        <!-- Boton  Admiistrativo -->
+         <li role="presentation" class="dropdown">
+             <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+              <span class="glyphicon glyphicon-briefcase"></span>  Administrativo <span class="caret"></span>
+             </a>
+             <ul class="dropdown-menu">
+               <li><a href="administrativo_autorizaciones.html">Autorizaciones</a></li>
+               <li><a href="administrativo_ventas.html">Informe de ventas</a></li>
+               <li><a href="administrativo_insumos.html">Informe de insumos</a></li>
+               <li><a href="administrativo_empleados.html">Informe de empleados</a></li>
+            </ul>
+          </li>
+        <!-- Boton de ventas -->
+      </lu>
+            </div>
+          </div>
+        </div>
+      </nav>
+  </header>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+
+  <!-- aqui va un jumbotron -->
+     
+    <div>
+       <form class="navbar-left" role="search">
+
+    <input type="text" class="form-control" placeholder="Ingresar documento" value="123456789">
+    <br>
+  
+    <button type="submit" class="btn btn-default">buscar</button>
+    </form>
+    </div>
+            
+
+  
+  <div style="margin-top: 100px">
+    <h2 style="text-align: center;">Informe de empleados</h2>
+  <p style="text-align: center;">Consulte aqui el informacion de sus empleados</p>
+  </div>
+  <br>
+  <table class="table table-bordered table-hover">
+    <thead>
+      <tr>
+        <th>id_empleado</th>
+        <th>documento</th>
+        <th>nombre</th>
+        <th>apellido</th>
+      </tr> 
+    </thead>
+    <tbody>
+      <tr>
+        <td>00010</td>
+        <td>123456789</td>
+        <td>oscar</td>
+        <td>mejia</td>
+      </tr>
+      
+    </tbody>
+    <thead>
+      <tr>
+        <th>telefono</th>
+        <th>direccion</th>
+        <th>disponibilidad</th>
+        <th>inicio_contrato</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>5489763</td>
+        <td>cra 45 # 54-85</td>
+        <td>activo</td>
+        <td>15/11/2016</td>
+      </tr>
+    </tbody>
+    <thead>
+      <tr>
+        <th>hora_inicio</th>
+        <th>id_punto_de_venta</th>
+        <th>id_cargo</th>
+        <th>correo</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>07:00</td>
+        <td>03</td>
+        <td>456</td>
+        <td>oscar@mejia.com</td>
+      </tr>
+    </tbody>
+  </table>
+  <button type="submit" class="btn btn-primary">VOLVER</button>
+  </div>
+
+     </section>
+
+<br><br><br><br>
+     <footer>
+        <div>
+          <p class="footer">La Jugosa &copy; Todos los derechos reservados</p>
+        </div>
+     </footer>
+    
+  
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>

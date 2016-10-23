@@ -1,0 +1,122 @@
+.barra{
+	background: #41a85f; /* color verde de pagina*/
+	height: 100px;
+}
+
+.logo{
+	width: 80px;
+	height: 80px;
+}
+
+.lista{
+	margin-top: -16px;
+	margin-left: 380px;
+	font-size: 17px;
+}
+
+.navbar-inverse .navbar-nav > li > a{
+	color:#ffe200; /* color amarillo de pagina*/
+}
+
+
+
+.navbar-inverse .navbar-brand  {
+    color: #ffe200;
+    
+}
+
+.navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:focus, .navbar-inverse .navbar-nav > .open > a:hover {
+    color: #ffe200;
+    background-color: #41a85f;
+}
+
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 160px;
+    padding: 5px 0;
+    margin: 2px 0 0;
+    font-size: 14px;
+    text-align: left;
+    list-style: none;
+    background-color: #41a85f;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: 1px solid #ccc;
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius: 4px;
+    -webkit-box-shadow: 0 6px 12px rgba(0,0,0,.175);
+    box-shadow: 0 6px 12px rgba(0,0,0,.175);
+}
+
+.dropdown-menu > li > a {
+    display: block;
+    padding: 3px 20px;
+    clear: both;
+    font-weight: 400;
+    line-height: 1.42857143;
+    color: #ffe200;
+    white-space: nowrap;
+}
+
+/* esto es css de eal boton responcive del nav*/
+
+.navbar-nav .open .dropdown-menu {
+    position: static;
+    float: none;
+    width: auto;
+    margin-top: 0;
+    background-color: #41a85f;
+    border: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.navbar-inverse .navbar-nav .open .dropdown-menu > li > a {
+    color: #ffe200;
+}
+.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
+    background-color: #41a85f;
+}
+
+/* aqui va el footer*/
+
+.footer{
+    position: fixed;
+	  bottom: 0px;
+		background: #41a85f;
+		width: 100%;
+		margin: 0px;
+		padding: 0px; 
+		text-align: center;
+	  height: 50px;
+}
+.jumbotron{
+    background-color: #41a85f;
+    margin-top: 80px;
+}
+
+.mantenimiento{
+    color: #ffe200;
+}
+.jumbotron .titulo{
+    font-size: 100px;
+    color: #ffe200; 
+}
+
+.dropdown-menu li a:hover{
+	background:green;
+	font-size:20px;
+	color: black;
+}
+
+.letra {
+	position: relative;
+	top: 20px;
+	
+ 
+}

@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>La jugosa</title>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/estilo.css">
+	<link rel="stylesheet" href="font/style.css">
+	<script src="js/bootstrap.min.js"></script>
+</head>
+<body>
+  <header>
+      <nav class="navbar navbar-inverse navbar-fixed-top barra" role="navigation">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navegacionlj">
+              <span class="sr-only">Desplgar / ocultar menu</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a href="#" class="navbar-brand"><img src="img/logolj.png" alt="" class="logo"> </a>
+            <a href="#" class="navbar-brand titulo"><h1>LA JUGOSA</h1></a>
+
+            
+            <!-- aqui empieza el menu -->
+            <div class="collapse navbar-collapse" id="navegacionlj">
+              <lu class="nav navbar-nav lista">
+        <!-- Boton  Admiistrativo -->
+         <li role="presentation" class="dropdown">
+             
+         <!-- boton de recursos humanos -->
+        <li role="presentation" class="dropdown">
+             <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+               <span class="icon-group" style="font-size:20px;"></span> Recursos humanos <span class="caret"></span>
+             </a>
+             <ul class="dropdown-menu">
+             <!-- Ingresar Informe de empleado (tabla)
+              Registrar empleado (botón desplegable)
+              Modificar registro de empleado (Botón)
+              Consultar empleado
+ -->
+             
+               <li><a href="#">Registrar empleado</a></li>
+               <li><a href="Novedades.html">Novedades</a></li>
+               <li><a href="ListarEmpleados.html">Ver lista de empleados</a></li>
+            </ul>
+          </li>
+ 
+       
+            </div>
+          </div>
+        </div>
+      </nav>
+  </header>
+ 
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+
+
+  <!-- aqui va un jumbotron -->
+     <h2 style="text-align: center;"><b>REGISTRAR EMPLEADOS</b></h2>
+       <h4 style="text-align: center;"><b>llene el formulario con los datos del empleado que desea registrar.</b></h4><br><br>
+       <br>
+
+            <div class="container">
+              
+               <form>
+                <div class="container">
+                                    <label class="form-control-label" for="index-form1-1-name"><span class="titulo">Nombres</span></label><br>
+                                    <input type="text" class="form-control" name="name"required="" data-form-field="Name" id="index-form1-1-name" placeholder="Ingrese los nombres del empleado"><br>
+
+                                     <labe2 class="form-control-label" for="index-form2-2-name"><span class="titulo"><b>Apellidos</b></span></labe2><br>
+                                    <input type="text" class="form-control" name="name"required="" data-form-field="Name" id="index-form2-2-name" placeholder="Ingrese los apellidos del empleado"><br>
+
+                                    <label class="form-control-label" for="index-form1-1-name"><span class="titulo">Documento de identificación</span></label><br>
+                                        <input type="text" class="form-control" name="name"required="" data-form-field="Name" id="index-form1-1-name" placeholder="Ingrese el número de documento de identificación"><br>
+
+                                    <div class="form-group">
+                                      <label class="form-control-label" for="index-form-4-4name"><span class="titulo">Seleccione el tipo de documento</span></label>
+                                         <select class="form-control">
+                                            <option>Cédula de Ciudadanía(CC)</option>
+                                            <option>Tarjeta de Identidad (TI)</option>
+                                            <option>Registro Civil (RC)</option>
+                                            <option>Cédula de Extranjería (CE)</option>
+                                            <option>Otros</option>
+                                      </select>
+                                      </div>
+                                   
+
+                                     <label class="form-control-label" for="index-form3-3-name"><span class="titulo">Dirección</span></label>
+                                    <input type="text" class="form-control" name="name"required="" data-form-field="Name" id="index-form3-3-name" placeholder="Ingrese la dirección del empleado"><br>
+                                      
+                                     <label class="form-control-label" for="index-form-4-4name"><span class="titulo">Teléfono</span></label>
+                                    <input type="tel" class="form-control" name="name"required="" data-form-field="Name" id="index-form4-4-name" placeholder="Ingrese el número de teléfono del empleado"><br>
+
+                                     <label class="form-control-label" for="index-form-4-4name"><span class="titulo">Celular</span></label>
+                                    <input type="tel" class="form-control" name="name"required="" data-form-field="Name" id="index-form4-4-name" placeholder="Ingrese el número celular del empleado"><br>
+
+                                    <div class="form-group">
+                                      <label class="form-control-label" for="index-form-4-4name"><span class="titulo">Seleccione la sede del empleado</span></label>
+                                       <select class="form-control">
+                                            <option>Envigado </option>
+                                            <option>Itagüí</option>
+                                            <option>Sabaneta</option>
+                                            <option>Poblado</option>
+                                            <option>Carrera 80</option>
+                                            <option>Los Sauces</option>
+                                            <option>Laureles</option>
+                                            <option>Avenida Oriental</option>
+                                            <option>Bello</option>
+                                            <option>Belén</option>
+                                      </select>
+                                    </div>
+                                  <label class="form-control-label" for="index-form1-1-name"><span class="titulo">Cargo</span></label>
+                                    <input type="text" class="form-control" name="name"required="" data-form-field="Name" id="index-form1-1-name" placeholder="Ingrese el cargo del empleado"><br> 
+                                    <button type="submit" class="btn btn-success">Registrar</button>  
+                           
+              </form>
+            </div>
+         <br><br><br><br><br><br><br>
+      
+
+<footer>
+        <<div>
+          <p class="footer"><span class="letra">La Jugosa &copy; Todos los derechos reservados</p></span>
+        </div>
+     </footer>
+    
+     
+    
+  
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
